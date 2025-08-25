@@ -1,26 +1,11 @@
-print((11 + 19) / (19 + 31))
+# Clarifying the misconception
+print(type(7))
 
-# or
-M = 19 + 31
-D = 11 + 19
-print(D / M)
+x = 7
+print(type(x))
 
-# or
-numerator = 11 + 19
-denominator = 19 + 31
-print(numerator / denominator)
+y = "7"
+print(type(y))
 
-# Assignment Statements
-# Example 1
-B = 19 + 31
-print(B)
-
-# Example 2
-x = 2
-y = x
-print(y)
-
-# Example 3
-t = 2
-t = t + 1
-print(t)
+z = '1947'
+print('August ' + z)
