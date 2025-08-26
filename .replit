@@ -15,7 +15,7 @@ run = ["python3", "main.py"]
 deploymentTarget = "cloudrun"
 
 [workflows]
-runButton = "Run Part 4"
+runButton = "Run Part 5"
 
 [[workflows.workflow]]
 name = "Run Part 2"
@@ -43,3 +43,12 @@ author = 46449174
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 part_4.py"
+
+[[workflows.workflow]]
+name = "Run Part 5"
+author = 46449174
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 part_5.py"
