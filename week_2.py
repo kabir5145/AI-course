@@ -13,5 +13,9 @@
 # print(max(''))
 
 # Python's built-in input function
-print(type(input))
-print(input('Number: '))
+# print(type(input))
+# print(input('Number: '))
+
+# Celsius to Fahrenheit(buggy)
+# temp_in_celcius = input('Temperature in Celcius: ')
+# 1.8 * temp_in_celcius + 32.0
