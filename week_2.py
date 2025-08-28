@@ -3,11 +3,15 @@
 # print(ord(''))
 # print(type(type))
 
-print(len(''))
-print(len('1947'))
-print(max('1947'))
-print(max('Zero'))
-print(ord('Z'))
-print(ord('r'))
-print(ord('z'))
-print(max(''))
+# print(len(''))
+# print(len('1947'))
+# print(max('1947'))
+# print(max('Zero'))
+# print(ord('Z'))
+# print(ord('r'))
+# print(ord('z'))
+# print(max(''))
+
+# Python's built-in input function
+print(type(input))
+print(input('Number: '))
