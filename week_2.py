@@ -20,6 +20,10 @@
 # temp_in_celcius = input('Temperature in Celcius: ')
 # 1.8 * temp_in_celcius + 32.0
 
+# temp_in_celcius = float(input('Celcius: '))
+# float(temp_in_celcius)
+# print(1.8 * temp_in_celcius + 32.0)
+
+# Nested function calls
 temp_in_celcius = float(input('Celcius: '))
-float(temp_in_celcius)
-print(1.8 * temp_in_celcius + 32.0)
+print(1.8 * float(temp_in_celcius) + 32.0)
