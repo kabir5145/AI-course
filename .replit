@@ -61,3 +61,6 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 week_2.py"
+
+[agent]
+expertMode = true
